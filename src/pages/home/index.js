@@ -4,6 +4,7 @@ import { Helmet, HelmetProvider } from "react-helmet-async";
 import Typewriter from "typewriter-effect";
 import { introdata, meta } from "../../content_option";
 import { Link } from "react-router-dom";
+import BgImage from '../../assets/final_vk_square.jpg'
 
 export const Home = () => {
   return (
@@ -18,6 +19,7 @@ export const Home = () => {
           <div
             className="h_bg-image order-1 order-lg-2 h-100 "
             style={{ backgroundImage: `url(${introdata.your_img_url})` }}
+            // style={{ backgroundImage: `url(${BgImage})` }}
           ></div>
           <div className="text order-2 order-lg-1 h-100 d-lg-flex justify-content-center">
             <div className="align-self-center ">
@@ -56,6 +58,9 @@ export const Home = () => {
                     </div>
                   </Link>
                 </div>
+                <a href="./Vikas_Saini_Portfolio.pdf" download><p
+                  style={{textDecoration: 'underline'}}
+                >Download Resume</p></a>
               </div>
             </div>
           </div>

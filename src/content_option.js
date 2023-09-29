@@ -1,47 +1,47 @@
-const logotext = "JOHN";
+const logotext = "VIKAS";
 const meta = {
-    title: "John Doe",
-    description: "I’m John Doe data scientist _ Full stack devloper,currently working in Berlin",
+    title: "Vikas Saini",
+    description: "I’m Vikas Saini Software Developer Engineer _ Full stack developer,currently studying in Pune, India",
 };
 
 const introdata = {
-    title: "I’m John Doe",
+    title: "I’m Vikas Saini",
     animated: {
         first: "I love coding",
         second: "I code cool websites",
-        third: "I develop mobile apps",
+        third: "I develop great Program",
     },
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum",
+    description: "I’m Vikas Saini Computer Science Engineer - Full stack developer, currently studying in Pune, India",
     your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
 };
 
 const dataabout = {
-    title: "abit about my self",
-    aboutme: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis dolor id ligula semper elementum feugiat pretium nulla. Nunc non commodo dolor. Nunc mollis dignissim facilisis. Morbi ut magna ultricies.",
+    title: "A bit about my self",
+    aboutme: "I'm Vikas Saini, Computer Science Engineer currently studying at a well known Institute - Dr. DY Patil Institute of Technology, Pimpri, Pune. I'm passionate about tech world, seeking opportunities in startup world.",
 };
 const worktimeline = [{
-        jobtitle: "Designer of week",
-        where: "YAdfi",
-        date: "2020",
+        jobtitle: "Web Developer",
+        where: "Stunly Agency",
+        date: "2023 - Present",
     },
     {
-        jobtitle: "Designer of week",
-        where: "Jamalya",
-        date: "2019",
+        jobtitle: "Designer and Developer",
+        where: "Freelancing",
+        date: "2022 - 2023",
     },
-    {
-        jobtitle: "Designer of week",
-        where: "ALquds",
-        date: "2019",
-    },
+    // {
+    //     jobtitle: "Technical Associate",
+    //     where: "CSI DIT",
+    //     date: "2021",
+    // },
 ];
 
 const skills = [{
-        name: "Python",
+        name: "HTML",
         value: 90,
     },
     {
-        name: "Djano",
+        name: "CSS & Libraries",
         value: 85,
     },
     {
@@ -50,107 +50,125 @@ const skills = [{
     },
     {
         name: "React",
-        value: 60,
+        value: 70,
     },
     {
-        name: "Jquery",
+        name: "Java",
         value: 85,
     },
+    {
+        name: "Python",
+        value: 35,
+    },
+];
+
+const courses = [{
+    title: "ReactJS",
+    description:`55.5 Hours Course - "React - The Complete Guide 2023 (incl. React Router & Redux)" by Maximilian Schwarzmüller ( Founder AcadeMind ). And thanks to Akshay Saini for the awesome videos`,
+},
+{
+    title: "JAVA",
+    description: "I've developed strong Java skills through Apni Kaksha's YouTube channel and a comprehensive Udemy course.",
+},
+{
+    title: "JavaScript",
+    description: "My proficiency in JavaScript has grown significantly thanks to Udemy courses and Akshay Saini's YouTube channel",
+},
+{
+    title: "MERN stack",
+    description: "I've mastered the MERN stack through in-depth courses on Udemy and Coursera, equipping me for versatile web development. And no doubt some Youtube Channels.",
+},
 ];
 
 const services = [{
-        title: "UI & UX Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "Graphic Design",
+        description: "We create visuals that captivate, communicate, and leave an impression. From logos to marketing materials, our designs are a cut above the rest.",
     },
     {
-        title: "Mobile Apps",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "Web Design & Development",
+        description: "Crafted with precision, our websites are more than just digital brochures. They are immersive, intuitive, and built to perform.",
     },
     {
-        title: "Wordpress Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "WordPress Development",
+        description: "Harness the power of WordPress with our customized themes and plugins, tailored to your specific needs.",
+    },
+    {
+        title: "Shopify Development",
+        description: "Elevate your online business with a stunning Shopify store that converts visitors into loyal customers.",
+    },
+    {
+        title: "E-commerce Solutions",
+        description: "Drive sales and provide a seamless shopping experience with our tailor-made e-commerce solutions.",
+    },
+    {
+        title: "Video Editing & production",
+        description: "Elevate your brand with our expert Video Editing & Production services, creating captivating, story-driven visuals.",
     },
 ];
 
-const dataportfolio = [{
-        img: "https://picsum.photos/400/?grayscale",
+const dataportfolio = [
+    {
+        img: "./img/CoinSpace.png",
         description: "The wisdom of life consists in the elimination of non-essentials.",
         link: "#",
     },
     {
-        img: "https://picsum.photos/400/800/?grayscale",
+        img: "./img/Expense-Tracker.png",
         description: "The wisdom of life consists in the elimination of non-essentials.",
         link: "#",
     },
     {
-        img: "https://picsum.photos/400/?grayscale",
+        img: "./img/Kavita-Portfolio.png",
         description: "The wisdom of life consists in the elimination of non-essentials.",
         link: "#",
     },
     {
-        img: "https://picsum.photos/400/600/?grayscale",
+        img: "./img/Netflix-Clone.png",
         description: "The wisdom of life consists in the elimination of non-essentials.",
         link: "#",
     },
     {
-        img: "https://picsum.photos/400/300/?grayscale",
+        img: "./img/QR-Code-Generator.png",
         description: "The wisdom of life consists in the elimination of non-essentials.",
         link: "#",
     },
     {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-
-    {
-        img: "https://picsum.photos/400/600/?grayscale",
+        img: "./img/Snake-Game.png",
         description: "The wisdom of life consists in the elimination of non-essentials.",
         link: "#",
     },
     {
-        img: "https://picsum.photos/400/300/?grayscale",
+        img: "./img/Todo-app.png",
         description: "The wisdom of life consists in the elimination of non-essentials.",
         link: "#",
     },
     {
-        img: "https://picsum.photos/400/?grayscale",
+        img: "./img/Vikas-Portfolio.png",
         description: "The wisdom of life consists in the elimination of non-essentials.",
         link: "#",
     },
     {
-        img: "https://picsum.photos/400/550/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
+        img: "./img/Vikas-Portfolio.png",
         description: "The wisdom of life consists in the elimination of non-essentials.",
         link: "#",
     },
 ];
 
 const contactConfig = {
-    YOUR_EMAIL: "name@domain.com",
-    YOUR_FONE: "(555)123-4567",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula eu nunc et sollicitudin. Cras pulvinar, nisi at imperdiet pharetra. ",
+    YOUR_EMAIL: "vikas289888@gmail.com",
+    YOUR_FONE: "+91 7972 1514 99",
+    description: "Hello, I'm Vikas Saini, a professional web developer with a passion for crafting digital experiences that leave a lasting impression.",
     // creat an emailjs.com account 
     // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
-    YOUR_SERVICE_ID: "service_id",
-    YOUR_TEMPLATE_ID: "template_id",
-    YOUR_USER_ID: "user_id",
+    YOUR_SERVICE_ID: "service_qtw6lu2",
+    YOUR_TEMPLATE_ID: "template_30qgn9g",
+    YOUR_USER_ID: "BHiLs30YF_s2aSFcY",
 };
 
 const socialprofils = {
-    github: "https://github.com",
-    facebook: "https://facebook.com",
-    linkedin: "https://linkedin.com",
-    twitter: "https://twitter.com",
+    github: "https://github.com/vikas-saini-7",
+    instagram: "https://instagram.com/the_vikas_saini",
+    linkedin: "https://www.linkedin.com/in/vikas-saini-602b96227/",
 };
 export {
     meta,
@@ -163,4 +181,5 @@ export {
     contactConfig,
     socialprofils,
     logotext,
+    courses,
 };
